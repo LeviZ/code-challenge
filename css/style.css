@@ -174,9 +174,14 @@ p {
 
 .checklist {
   max-width: 100%;
-  background-image: url('imgs/notepad.png');
+  background-image: url('../imgs/notepad.png');
   margin: 70px 70px;
 }
+
+input[type=checkbox] {
+  margin-right: 10px;
+}
+
 
 
 
