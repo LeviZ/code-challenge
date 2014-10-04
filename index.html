@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Delicious | The Best Food Blog On The Web</title>
+  <link href='http://fonts.googleapis.com/css?family=Abel|Patrick+Hand|Yellowtail|Droid+Serif|Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+    <main class="main section group">
+      <header class="main_header section group">
+        <header class="header_logo col span_1_of_2">
+          <img src="imgs/icons/logo-icon.png" alt="fork and knife icon">
+          <h1>Delicious</h1>
+          <p>THE BEST FOOD BLOG ON THE WEB.</p>
+        </header>
+        <header class="header_social col span_1_of_2">
+          <a href=""><img src="imgs/icons/facebook-icon.png" alt="facebook icon" style="width:25px;height:25px;border:0"></a>
+          <a href=""><img src="imgs/icons/twitter-icon.png" alt="twitter icon" style="width:25px;height:25px;border:0"></a>
+          <a href=""><img src="imgs/icons/linkedin-icon.png" alt="linkedin icon" style="width:25px;height:25px;border:0"></a>
+          <a href=""><img src="imgs/icons/pinterest-icon.png" alt="pinterest icon" style="width:25px;height:25px;border:0"></a>
+          <a class="rss" href=""><img src="imgs/icons/rss-icon.png" alt="rss icon" style="width:25px;height:25px;border:0"></a>
+          <a href=""><img src="imgs/icons/email-icon.png" alt="email icon" style="width:25px;height:25px;border:0"></a>
+        </header>
+      </header>
+      <div class="divider divider_top"></div>
+      <article class="main_article section group">
+        <h1>Chocolate Pizza</h1>
+        <p class="main_article__date">POSTED ON 17 DEC 2013 / DESSERTS</p>
+        <img class="article_img" src="imgs/choc_cake.png" alt="Chocolate Cake Photo">
+        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
+        </p><span>
+        <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
+        </p><span>
+        <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.
+        </p><span>
+      </article>
+      <section class="checklist section group">
+         <ul class="checklist__1 col span_1_of_2">
+           <li><input type="checkbox">1 1/2 cups milk</li>
+           <li><input type="checkbox">1/2 cup mascarpone</li>
+           <li><input type="checkbox">1/2 tsp pink salt</li>
+           <li><input type="checkbox">1 lb Black Mission Figs</li>
+           <li><input type="checkbox">1/2 cup brown sugar</li>
+           <li><input type="checkbox">2-4 tbsp water</li>
+         </ul>
+         <ul class="checklist__2 col span_1_of_2">
+           <li><input type="checkbox">1 1/2 cups heavy cream</li>
+           <li><input type="checkbox">1/3 granulated sugar</li>
+           <li><input type="checkbox">2 egg yolks</li>
+           <li><input type="checkbox">1 lemon, juiced</li>
+           <li><input type="checkbox">2 tbsp butter</li>
+           <li><input type="checkbox">1 cup honey roasted pecans,<br> roughlychopped</li>
+         </ul>
+      </section>
+      <div class="divider divider_bottom"></div>
+      <section class="author_obj col span_2_of_2">
+          <img src="imgs/profile.jpg" alt="Vanessa smiling head shot">
+          <h3>Vanessa Stevenson</h3>
+          <a class="share_button" href="#">SHARE RECIPE</a>
+          <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </section>
+      <section class="footer">
+        <hr>
+        <img src="imgs/icons/logo-icon.png" alt="Delicious Blog Logo">
+        <hr>
+        <p>Delicious © 2014 · All Rights Reserved.<br>Proudly published with Ghost.</p>
+      </section>
+    </main>
+<script type="text/javascript">$("input[type=checkbox]").click(function() {
+   $(this).parent().css('text-decoration", this.checked ? "line-through" : "");
+});</script>
+</body>
+</html>
