@@ -109,10 +109,9 @@ p {
   margin-left: 10px;
 }
 
-.header_social a {
-  width:25px;
-  height:25px;
-  border:0
+.header_social a img {
+  width: 25px;
+  height: 25px;
 }
 
 
